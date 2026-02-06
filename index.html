@@ -11,9 +11,47 @@
   <title>Frontend Mentor | Digitalbank landing page</title>
 
 </head>
-<body>
-  <nav>
+<body class="public-sans-body">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary pb-0">
+    <div class="container text-center">
 
+      <a class="navbar-brand" href="#">
+        <img src="/images/logo-dark.svg" alt="Digital Bank" height="24">
+      </a>
+
+      <button class="navbar-toggler border-0 shadow-none bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="/images/icon-hamburger.svg" alt="Digital Bank" width="30" >
+      </button>
+
+      <div class="collapse navbar-collapse text-center justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link menu-option mx-3 mt-3 pb-4 active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link menu-option mx-3 mt-3 pb-4" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link menu-option mx-3 mt-3 pb-4" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link menu-option mx-3 mt-3 pb-4"  href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link menu-option mx-3 mt-3 pb-4"  href="#">Careers</a>
+          </li>          
+        </ul>        
+      </div>
+
+      <ul class="navbar-nav d-none d-lg-flex">
+          <li class="nav-item ">
+            <a class="btn request-btn rounded-5 px-4" href="#">
+              Request Invite
+            </a>
+          </li>
+      </ul>
+      
+    </div>
   </nav>
   <main class="container text-center d-flex flex-column justify-content-center align-items-center">
 
@@ -24,13 +62,7 @@
     Coded by <a href="#">Noemi Delgadillo Roldan</a>.
     </div>
   </footer>
-  Home
-  About
-  Contact
-  Blog
-  Careers
-
-  Request Invite
+ 
 
 
 

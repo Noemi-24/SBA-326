@@ -1,4 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* ===== Colors ===== */
+:root{
+    --primary-blue950: hsl(233, 26%, 24%);
+    --primary-green500: hsl(136, 64%, 51%);
+    --primary-cyan400: hsl(192, 69%, 51%);
+
+    --neutral-gray600:hsl(233, 8%, 62%);
+    --neutral-gray100:hsl(220, 16%, 96%);
+    --neutral-gray50:hsl(0, 0%, 98%);
+    --neutral-white:hsl(0, 100%, 100%);
+}
+
+body{
+    font-size: 18px;
+}
 
 .attribution { 
     font-size: 11px; 
@@ -10,7 +25,7 @@
 }
 
 /* ===== Typography ===== */
-.public-sans- {
+.public-sans-body {
   font-family: "Public Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
@@ -31,19 +46,19 @@
   font-style: normal;
 }
 
-body{
-    font-size: 18px;
+.request-btn{
+  background: linear-gradient(to top right, var(--primary-cyan400), var(--primary-green500)) !important;
+  color: var(--neutral-white)!important;
+ }
+
+.request-btn:hover{
+  filter: brightness(1.1);
 }
 
-/* ===== Colors ===== */
-:root{
-    --primary-blue950: hsl(233, 26%, 24%);
-    --primary-green500: hsl(136, 64%, 51%);
-    --primary-cyan400: hsl(192, 69%, 51%);
-
-    --neutral-gray600:hsl(233, 8%, 62%);
-    --neutral-gray100:hsl(220, 16%, 96%);
-    --neutral-gray50:hsl(0, 0%, 98%);
-    --neutral-white:hsl(0, 100%, 100%);
+.menu-option{
+  color: var(--neutral-gray600);
 }
 
+.nav-link.active{
+  border-bottom: 2px solid var(--primary-green500);
+}
