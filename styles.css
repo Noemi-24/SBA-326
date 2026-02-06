@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* ===== Typography ===== */
+.public-sans- {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.public-sans- {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.public-sans- {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body{
+    font-size: 18px;
+}
+
+/* ===== Colors ===== */
+:root{
+    --primary-blue950: hsl(233, 26%, 24%);
+    --primary-green500: hsl(136, 64%, 51%);
+    --primary-cyan400: hsl(192, 69%, 51%);
+
+    --neutral-gray600:hsl(233, 8%, 62%);
+    --neutral-gray100:hsl(220, 16%, 96%);
+    --neutral-gray50:hsl(0, 0%, 98%);
+    --neutral-white:hsl(0, 100%, 100%);
+}
+
