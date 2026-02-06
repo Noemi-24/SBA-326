@@ -32,7 +32,7 @@ body{
   font-style: normal;
 }
 
-.public-sans- {
+.public-sans-links {
   font-family: "Public Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -59,6 +59,25 @@ body{
   color: var(--neutral-gray600);
 }
 
-.nav-link.active{
-  border-bottom: 2px solid var(--primary-green500);
+.menu-option:hover{
+  border-bottom: 3px solid var(--primary-green500);
+}
+
+
+.custom-bottom-nav{
+  background-color: var(--primary-blue950);
+  color: var(--neutral-gray600);
+}
+
+.rights{
+  font-size: 12px;
+}
+
+.nav-link-bottom:hover{
+  color: var(--primary-green500);
+}
+
+.offcanvas-body {
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
