@@ -118,7 +118,7 @@ What didn’t work well:
 - Some suggestions needed customization to fit the design exactly
 
 Overall, AI tools helped me learn faster while maintaining control over my code.
-
+```
 ---
 ## Author
 
