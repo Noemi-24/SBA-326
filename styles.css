@@ -82,11 +82,11 @@ body{
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
- /* .mockup-bg {
+ .mockup-bg {
   background-image: url('/images/bg-intro-desktop.svg');
   background-position: left center;
   background-repeat: no-repeat;
-} */
+}
 
 .articles-section, .hero-section{
   background-color: var(--neutral-gray50);
@@ -100,6 +100,11 @@ body{
   background: linear-gradient(to top bottom, var(--neutral-white), var(--neutral-gray100)) !important;
 }
 
+.navbar,
+.main-navbar {
+  position: relative;
+  z-index: 1000;
+}
 
 p{
   color: var(--neutral-gray600);
@@ -110,3 +115,5 @@ h6{
   color: var(--neutral-gray600);
   font-size: 12px;
 }
+
+
