@@ -39,7 +39,7 @@ body{
   font-style: normal;
 }
 
-.public-sans- {
+.public-sans-titles{
   font-family: "Public Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -80,4 +80,33 @@ body{
 .offcanvas-body {
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+ /* .mockup-bg {
+  background-image: url('/images/bg-intro-desktop.svg');
+  background-position: left center;
+  background-repeat: no-repeat;
+} */
+
+.articles-section, .hero-section{
+  background-color: var(--neutral-gray50);
+}
+
+.digital-section {
+  background-color: var(--neutral-gray100);
+}
+
+.main-navbar{
+  background: linear-gradient(to top bottom, var(--neutral-white), var(--neutral-gray100)) !important;
+}
+
+
+p{
+  color: var(--neutral-gray600);
+  font-size: 16px;
+}
+
+h6{
+  color: var(--neutral-gray600);
+  font-size: 12px;
 }
