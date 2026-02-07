@@ -93,9 +93,6 @@ I also plan to continue practicing implementing Figma designs with high accuracy
 
 ---
 
-## 📌 **AI Collaboration (Mejor redactado)**
-
-```md
 ### AI Collaboration
 
 During this project, I used ChatGPT to support my learning and problem-solving process.
@@ -118,7 +115,7 @@ What didn’t work well:
 - Some suggestions needed customization to fit the design exactly
 
 Overall, AI tools helped me learn faster while maintaining control over my code.
-```
+
 ---
 ## Author
 
